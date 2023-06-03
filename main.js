@@ -12,3 +12,9 @@ function closeNav() {
     document.getElementById("openbtn").style.display = "block";
 
 }
+let td  = document.querySelectorAll('.td');
+td.forEach(element => {
+    element.oncick = function(){
+        
+    }
+});
