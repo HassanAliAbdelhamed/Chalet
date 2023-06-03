@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <title>Add Reservation</title>
+</head>
+<body>
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="#">ADD</a>
+        <a href="#">Chalet 1</a>
+        <a href="#">Chalet 2</a>
+        <a href="#">Chalet 3</a>
+      </div>
+      
+      <div id="main">
+          <nav class="navbar navbar-light bg-light">
+              <button id="openbtn" class="openbtn" style="border-radius: 10px;" onclick="openNav()">☰</button>  
+            </nav>
+      </div>
+        <aside>
+            <div class="container">
+                <div class="container-fluid" style="display: flex;justify-content: space-between; align-items: center;">
+                    <h1>ADD</h1>
+                </div>
+                <div class="mb-3">
+                    <div class="col" style="display: flex; justify-content: space-around; align-items: center;" >
+                        <input type="date"  style="font-size: 22px;">
+                        <select id="trainType" style="font-size: 25px;" >
+                        <option value="روسي">1</option>
+                        <option value="vip">2</option>
+                        <option value="نوم">3</option>
+                      </select>                            
+                    </div>
+                    <label for="Name" class="form-label"></label>
+                    <input type="text" class="form-control" id="Name" placeholder="Name" style="font-size: 22px;">
+                    <label for="Phone" class="form-label"></label>
+                    <input type="text" class="form-control" id="Phone" placeholder="Phone" style="font-size: 22px;">
+                    <label for="SSID" class="form-label"></label>
+                    <input type="text" class="form-control" id="SSID" placeholder="SSID" style="font-size: 22px;">
+                </div>
+                <div style="display:flex; justify-content: center; align-items: center; padding: 20px; ">
+                    <button class="btn btn-success" style="font-size: 24px;">Save</button>
+
+                </div>
+            </div>
+        </aside>
+        
+    </div>
+  
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.6.0/jszip.min.js"></script>
+<script src="main.js" ></script>
+</html>
+
